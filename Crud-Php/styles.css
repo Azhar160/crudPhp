@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(92, 92, 236);
+}
+
+form h2
+{
+    margin: 2vw;
+}
+
+form
+{
+    max-width: 50%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 212, 212);
+    padding: 2vw;
+    position: relative;
+}
+
+form label
+{
+    position: absolute;
+    left: 1vw;
+}
+
+form input
+{
+    width: 25vw;
+    height: 4vh;
+}
+
+form select
+{
+    padding: 0 4vw;
+}
+
+form .submit
+{
+    width: 100%;
+    padding: 1vw;
+}
